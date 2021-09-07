@@ -1,0 +1,5 @@
+FROM ubuntu
+WORKDIR /etc
+RUN mkdir -p dir1/dir2/dir3/dir4
+RUN touch file{1..5}
+VOLUME /redhat
